@@ -78,18 +78,16 @@ public class Pyramid {
     }
     
     static void pattern6(int noOfRows) {
-        int growth = 0;
         for (int i=0; i<noOfRows; i++) {
             
             for (int j=noOfRows-i; j>1; j--) {
                 System.out.print(" ");
             }
             
-            for (int k=0; k<=growth; k++) {
+            for (int k=0; k<=2*i; k++) {
                 System.out.print("*");
             }
             
-            growth += 2;
             System.out.println();
         }
     }

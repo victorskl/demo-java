@@ -8,3 +8,14 @@
 
 # BlueJ
 *.ctxt
+
+.idea
+*.iml
+
+# Eclipse
+bin/
+.metadata/
+.settings/
+*~
+*.project
+*.classpath
